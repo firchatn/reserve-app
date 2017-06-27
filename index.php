@@ -1,14 +1,14 @@
 <?php
 echo"
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>Lavage Reservation	</title>
     
 <style>
 #customers {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
@@ -56,7 +56,16 @@ if($resultat=mysql_query("select * from clients;")){
 				while($ligne=mysql_fetch_row($resultat)){
 
 echo"<tr>
-<td>$ligne[0] </td><td><a href='inscri.html' id='l'> $ligne[1] </a></td><td>libre </td><td>libre </td><td>oucuper </td><td>oucuper </td><td>oucuper </td><td>oucuper </td><td>oucuper </td><td>oucuper </td>
+<td>$ligne[0] </td>
+<td><a href='inscri.html' id='l'> $ligne[8] </a></td>
+<td><a href='inscri.html' id='l'> $ligne[9] </a></td>
+<td><a href='inscri.html' id='l'> $ligne[10] </a></td>
+<td><a href='inscri.html' id='l'> $ligne[11] </a></td>
+<td><a href='inscri.html' id='l'> $ligne[12] </a></td>
+<td><a href='inscri.html' id='l'> $ligne[14] </a></td>
+<td><a href='inscri.html' id='l'> $ligne[15] </a></td> 
+<td><a href='inscri.html' id='l'> $ligne[16] </a></td>
+<td><a href='inscri.html' id='l'> $ligne[17] </a></td>
 </tr>
 
 </table>
