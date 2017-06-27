@@ -37,8 +37,11 @@ h3 {
 	border-color : pink;
 	border-radius : 25px;
 }
-#l{
+#libre{
 color : green;
+}
+#oucuper{
+color : white;
 }
 </style>
 </head>
@@ -57,15 +60,15 @@ if($resultat=mysql_query("select * from clients;")){
 
 echo"<tr>
 <td>$ligne[0] </td>
-<td><a href='inscri.html' id='l'> $ligne[8] </a></td>
-<td><a href='inscri.html' id='l'> $ligne[9] </a></td>
-<td><a href='inscri.html' id='l'> $ligne[10] </a></td>
-<td><a href='inscri.html' id='l'> $ligne[11] </a></td>
-<td><a href='inscri.html' id='l'> $ligne[12] </a></td>
-<td><a href='inscri.html' id='l'> $ligne[14] </a></td>
-<td><a href='inscri.html' id='l'> $ligne[15] </a></td> 
-<td><a href='inscri.html' id='l'> $ligne[16] </a></td>
-<td><a href='inscri.html' id='l'> $ligne[17] </a></td>
+<td><a href='inscri.html' id='$ligne[8]'> $ligne[8] </a></td>
+<td><a href='inscri.html' id='$ligne[9]'> $ligne[9] </a></td>
+<td><a href='inscri.html' id='$ligne[10]'> $ligne[10] </a></td>
+<td><a href='inscri.html' id='$ligne[11]'> $ligne[11] </a></td>
+<td><a href='inscri.html' id='$ligne[12]'> $ligne[12] </a></td>
+<td><a href='inscri.html' id='$ligne[14]'> $ligne[14] </a></td>
+<td><a href='inscri.html' id='$ligne[15]'> $ligne[15] </a></td> 
+<td><a href='inscri.html' id='$ligne[16]'> $ligne[16] </a></td>
+<td><a href='inscri.html' id='$ligne[17]'> $ligne[17] </a></td>
 </tr>
 
 </table>
