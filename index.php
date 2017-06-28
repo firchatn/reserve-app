@@ -1,5 +1,5 @@
 <?php
-echo"
+echo "
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -61,15 +61,15 @@ if($resultat=mysql_query("select * from clients;")){
 echo"
 <tr>
 <td>$ligne[0] </td>
-<td><a href='$ligne[8].html' id='$ligne[8]'> $ligne[8] </a></td>
-<td><a href='$ligne[9].html' id='$ligne[9]'> $ligne[9] </a></td>
-<td><a href='$ligne[10].html' id='$ligne[10]'> $ligne[10] </a></td>
-<td><a href='$ligne[11].html' id='$ligne[11]'> $ligne[11] </a></td>
-<td><a href='$ligne[12].html' id='$ligne[12]'> $ligne[12] </a></td>
-<td><a href='$ligne[14].html' id='$ligne[14]'> $ligne[14] </a></td>
-<td><a href='$ligne[15].html' id='$ligne[15]'> $ligne[15] </a></td> 
-<td><a href='$ligne[16].html' id='$ligne[16]'> $ligne[16] </a></td>
-<td><a href='$ligne[17].html' id='$ligne[17]'> $ligne[17] </a></td>
+<td><a href='$ligne[8].php?id=8' id='$ligne[8]'> $ligne[8] </a></td>
+<td><a href='$ligne[9].php?id=9' id='$ligne[9]'> $ligne[9] </a></td>
+<td><a href='$ligne[10].php?id=10' id='$ligne[10]'> $ligne[10] </a></td>
+<td><a href='$ligne[11].php?id=11' id='$ligne[11]'> $ligne[11] </a></td>
+<td><a href='$ligne[12].php?id=12' id='$ligne[12]'> $ligne[12] </a></td>
+<td><a href='$ligne[14].php?id=14' id='$ligne[14]'> $ligne[14] </a></td>
+<td><a href='$ligne[15].php?id=15' id='$ligne[15]'> $ligne[15] </a></td> 
+<td><a href='$ligne[16].php?id=16' id='$ligne[16]'> $ligne[16] </a></td>
+<td><a href='$ligne[17].php?id=17' id='$ligne[17]'> $ligne[17] </a></td>
 </tr>
 
 </table>
