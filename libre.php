@@ -12,7 +12,9 @@ text-align : center;
   </head>
 
   <body>
-    <FORM method="post" action="reserver.php">
+  <?php
+  $v = $_CET[id];
+    echo "<FORM method='post' action='reserver.php?id=$v'>";
       <h1>Rerservation </h1>
       <div id = 'inputform'>
          Votre nom: <input type="text" name="fname"><br>
