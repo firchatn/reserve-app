@@ -47,7 +47,7 @@ color : red;
 </head>
 
 <body>
-<h1> tableaux de reservation </h1>";
+<h1><center> tableaux de reservation </center></h1>";
 
 if($id=mysql_connect("localhost","root","")){
 		if($id_db=mysql_select_db("lavage")){
@@ -55,27 +55,30 @@ echo "<table  id='customers'>
 <tr>
 <td></td><td>8 - 9 </td><td>9 - 10 </td><td>10 - 11 </td><td>11 - 12 </td><td>12 - 13 </td><td>14 - 15 </td> <td>15 - 16 </td> <td>16 - 17 </td> <td>17 - 18 </td>
 </tr>";
-if($resultat=mysql_query("select * from clients;")){
+if($resultat=mysql_query("select * from etat;")){
 				while($ligne=mysql_fetch_row($resultat)){
 
 echo"
 <tr>
 <td>$ligne[0] </td>
-<td><a href='$ligne[8].php?id=8' id='$ligne[8]'> $ligne[8] </a></td>
-<td><a href='$ligne[9].php?id=9' id='$ligne[9]'> $ligne[9] </a></td>
-<td><a href='$ligne[10].php?id=10' id='$ligne[10]'> $ligne[10] </a></td>
-<td><a href='$ligne[11].php?id=11' id='$ligne[11]'> $ligne[11] </a></td>
-<td><a href='$ligne[12].php?id=12' id='$ligne[12]'> $ligne[12] </a></td>
-<td><a href='$ligne[14].php?id=14' id='$ligne[14]'> $ligne[14] </a></td>
-<td><a href='$ligne[15].php?id=15' id='$ligne[15]'> $ligne[15] </a></td> 
-<td><a href='$ligne[16].php?id=16' id='$ligne[16]'> $ligne[16] </a></td>
-<td><a href='$ligne[17].php?id=17' id='$ligne[17]'> $ligne[17] </a></td>
-</tr>
-
-</table>
+<td><a href='$ligne[8].php?id=huit&day=$ligne[0]' id='$ligne[8]'> $ligne[8] </a></td>
+<td><a href='$ligne[9].php?id=neuf&day=$ligne[0]' id='$ligne[9]'> $ligne[9] </a></td>
+<td><a href='$ligne[10].php?id=dix&day=$ligne[0]' id='$ligne[10]'> $ligne[10] </a></td>
+<td><a href='$ligne[11].php?id=onze&day=$ligne[0]' id='$ligne[11]'> $ligne[11] </a></td>
+<td><a href='$ligne[12].php?id=douz&day=$ligne[0]' id='$ligne[12]'> $ligne[12] </a></td>
+<td><a href='$ligne[14].php?id=quatorze&day=$ligne[0]' id='$ligne[14]'> $ligne[14] </a></td>
+<td><a href='$ligne[15].php?id=quinze&day=$ligne[0]' id='$ligne[15]'> $ligne[15] </a></td> 
+<td><a href='$ligne[16].php?id=seize&day=$ligne[0]' id='$ligne[16]'> $ligne[16] </a></td>
+<td><a href='$ligne[17].php?id=dixsept&day=$ligne[0]' id='$ligne[17]'> $ligne[17] </a></td>
+</tr>";
+}}
+echo "</table>
 
 </body>
 </html>";
+
+		}
+}	
 ?>
 
 

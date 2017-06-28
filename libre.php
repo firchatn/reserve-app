@@ -13,8 +13,10 @@ text-align : center;
 
   <body>
   <?php
-  $v = $_CET[id];
-    echo "<FORM method='post' action='reserver.php?id=$v'>";
+  $v = $_GET['id'];
+  $v2 = $_GET['day'];
+    echo "<FORM method='post' action='reserver.php?id=$v&day=$v2'>";
+	?>
       <h1>Rerservation </h1>
       <div id = 'inputform'>
          Votre nom: <input type="text" name="fname"><br>
