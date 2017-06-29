@@ -45,7 +45,7 @@ background-color : green ;
 color : white;
 background-color : red;
 }
-#g{
+#tc{
 color : white;
 }
 </style>
@@ -66,15 +66,15 @@ if($resultat=mysql_query("select * from etat;")){
 echo"
 <tr>
 <td id='j'>$ligne[0] </td>
-<td id='$ligne[8]'><a href='$ligne[8].php?id=huit&day=$ligne[0]'  > $ligne[8] </a></td>
-<td id='$ligne[9]'><a href='$ligne[9].php?id=neuf&day=$ligne[0]'  > $ligne[9] </a></td>
-<td id='$ligne[10]'><a href='$ligne[10].php?id=dix&day=$ligne[0]' > $ligne[10] </a></td>
-<td id='$ligne[11]'><a href='$ligne[11].php?id=onze&day=$ligne[0]' > $ligne[11] </a></td>
-<td id='$ligne[12]'><a href='$ligne[12].php?id=douz&day=$ligne[0]' > $ligne[12] </a></td>
-<td id='$ligne[14]'><a href='$ligne[14].php?id=quatorze&day=$ligne[0]' > $ligne[14] </a></td>
-<td id='$ligne[15]'><a href='$ligne[15].php?id=quinze&day=$ligne[0]' > $ligne[15] </a></td> 
-<td id='$ligne[16]'><a href='$ligne[16].php?id=seize&day=$ligne[0]' > $ligne[16] </a></td>
-<td id='$ligne[17]'><a href='$ligne[17].php?id=dixsept&day=$ligne[0]' > $ligne[17] </a></td>
+<td id='$ligne[8]'><a href='$ligne[8].php?id=huit&day=$ligne[0]' id='tc' > $ligne[8] </a></td>
+<td id='$ligne[9]'><a href='$ligne[9].php?id=neuf&day=$ligne[0]'  id='tc'> $ligne[9] </a></td>
+<td id='$ligne[10]'><a href='$ligne[10].php?id=dix&day=$ligne[0]' id='tc'> $ligne[10] </a></td>
+<td id='$ligne[11]'><a href='$ligne[11].php?id=onze&day=$ligne[0]' id='tc'> $ligne[11] </a></td>
+<td id='$ligne[12]'><a href='$ligne[12].php?id=douz&day=$ligne[0]' id='tc'> $ligne[12] </a></td>
+<td id='$ligne[14]'><a href='$ligne[14].php?id=quatorze&day=$ligne[0]' id='tc'> $ligne[14] </a></td>
+<td id='$ligne[15]'><a href='$ligne[15].php?id=quinze&day=$ligne[0]' id='tc'> $ligne[15] </a></td> 
+<td id='$ligne[16]'><a href='$ligne[16].php?id=seize&day=$ligne[0]' id='tc'> $ligne[16] </a></td>
+<td id='$ligne[17]'><a href='$ligne[17].php?id=dixsept&day=$ligne[0]' id='tc'> $ligne[17] </a></td>
 </tr>";
 }}
 echo "</table>
