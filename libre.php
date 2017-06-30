@@ -19,8 +19,8 @@ text-align : center;
 	?>
       <h1>Rerservation </h1>
       <div id = 'inputform'>
-         Votre nom: <input type="text" name="fname"><br>
-         Matricule voiture: <input type="text" name="lname" ><br>
+         Votre nom: <input type="text" name="name"><br>
+         Matricule voiture: <input type="text" name="mat" ><br>
       </div>
       <div id ='list'>
          Type : <SELECT name="formation" size="1">

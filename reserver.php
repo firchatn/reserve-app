@@ -15,8 +15,13 @@ if ($conn->connect_error) {
 
 $v = $_GET['id'];
 $v2 = $_GET['day'];
-echo $v2;
+$name = $_POST['name'];
+$mat = $_POST['mat'];
 $sql = "UPDATE etat SET $v = 'oucuper' where jour = '$v2'  ";
+
+
+$sql2 = "INSERT INTO `reserver`(`matricule`, `client`, `date`, `time` ,`type` ) VALUES ('$mat','$name', '0000-00-00','$v','inconnu');";
+$conn->query($sql2);
 
 if ($conn->query($sql) === TRUE) {
     echo "New record updated successfully";
