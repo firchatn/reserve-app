@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Admin</title>
+<title>Lavage complet</title>
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 
 <style>
@@ -51,14 +51,7 @@ div {
   <label><b>Matricule</b></label>
       <input type='text'  name='mat' required>
 	  <br>
-	  
-	    <label><b>Description</b></label>
-      <input type='text'  name='desc' required>
-	  <br>
-	
-
-<br>	
-<br>	
+	  	
 	  <br>
 	 
 	 <body>
