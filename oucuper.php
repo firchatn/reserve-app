@@ -12,6 +12,7 @@ text-align : center;
   </head>
 
   <body>
-<h2>  reserver :/ </h2>
+<h2>  reserver  </h2>
+<a href="index.php"> acceuil page </a>
   </body>
 </html>
