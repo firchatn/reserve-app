@@ -19,8 +19,7 @@ $name = $_POST['name'];
 $mat = $_POST['mat'];
 $sql = "UPDATE etat SET $v = 'oucuper' where jour = '$v2'  ";
 
-
-$sql2 = "INSERT INTO reserver (matricule, client ,type ) VALUES ('$mat','$name','inconnu');";
+$sql2 = "INSERT INTO reserver (matricule, client ,date ,time,type ) VALUES ('$mat','$name','2016/10/10', '10','inconnu');";
 $conn->query($sql2);
 
 if ($conn->query($sql) === TRUE) {
@@ -28,7 +27,7 @@ if ($conn->query($sql) === TRUE) {
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
-	//header("Location: index.php", true, 301);
+	header("Location: index.php", true, 301);
 
 $conn->close();
 ?>
