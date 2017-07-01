@@ -78,6 +78,7 @@ echo"
 </tr>";
 }}
 echo "</table>
+<center><a href='complet.php'> Demande lavage complet </a></center>
 
 </body>
 </html>";
