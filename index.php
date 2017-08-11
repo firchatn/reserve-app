@@ -3,6 +3,7 @@ echo "
 <!DOCTYPE html>
 <html lang='en'>
 <head>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css' integrity='sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ' crossorigin='anonymous'>
     <meta charset='utf-8'>
     <title>Lavage Reservation	</title>
     
@@ -52,7 +53,8 @@ color : white;
 </head>
 
 <body>
-<h1><center> tableaux de reservation </center></h1>";
+<div class='container'>
+<h1><center> Tableaux de Reservation </center></h1>";
 
 if($id=mysqli_connect("localhost","root","root")){
 		if($id_db=mysqli_select_db($id,"lavage")){
@@ -79,7 +81,7 @@ echo"
 }}
 echo "</table>
 <center><a href='complet.php'> Demande lavage complet </a></center>
-
+</div>
 </body>
 </html>";
 
