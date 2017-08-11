@@ -54,14 +54,14 @@ color : white;
 <body>
 <h1><center> tableaux de reservation </center></h1>";
 
-if($id=mysql_connect("localhost","root","root")){
-		if($id_db=mysql_select_db("lavage")){
+if($id=mysqli_connect("localhost","root","root")){
+		if($id_db=mysqli_select_db($id,"lavage")){
 echo "<table  id='customers'>
 <tr>
 <td></td><td>8 - 9 </td><td>9 - 10 </td><td>10 - 11 </td><td>11 - 12 </td><td>12 - 13 </td><td>14 - 15 </td> <td>15 - 16 </td> <td>16 - 17 </td> <td>17 - 18 </td>
 </tr>";
-if($resultat=mysql_query("select * from etat;")){
-				while($ligne=mysql_fetch_row($resultat)){
+if($resultat=mysqli_query($id, "select * from etat;")){
+				while($ligne=mysqli_fetch_row($resultat)){
 
 echo"
 <tr>
