@@ -3,7 +3,7 @@
 <head>
 <title>Lavage complet</title>
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <style>
 input[type=text], select {
     width: 100%;
@@ -38,6 +38,9 @@ div {
 </style>
 </head>
 <center><h1> Lavage complet </h1></center>
+<div class="container">
+<div class="col-12 col-md-12">
+
  <form class='modal-content animate' action='lcomplet.php' method='post' enctype="multipart/form-data">
     <div class='container'>
 	  <label><b>Nom</b></label>
@@ -60,6 +63,8 @@ div {
 	 <br>
 	 <center>
 	 <button type="sumbit" >confirmer </button> 
+     </div>
+     </div>
 	 </center>
 	 </body>
 	 </html>
