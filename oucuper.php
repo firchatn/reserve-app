@@ -13,6 +13,6 @@ text-align : center;
 
   <body>
 <h2>  reserver  </h2>
-<a href="index.php"> acceuil page </a>
+<a href="index.php"> choisir un autre date :) </a>
   </body>
 </html>
