@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>oucuper</title>
     <link rel="stylesheet" href="mystyle.css">
-<style>
-body {
-text-align : center;
-}
-</style>
-  </head>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
 
-  <body>
-<h2>  reserver  </h2>
-<a href="index.php"> choisir un autre date :) </a>
-  </body>
+<body>
+    <h2>  reserver  </h2>
+    <a href="index.php"> choisir un autre date :) </a>
+</body>
+
 </html>
