@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Lavage complet</title>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
@@ -39,36 +38,28 @@
         }
     </style>
 </head>
+<boby>
 <center>
-    <h1> Lavage complet </h1></center>
-<div class="container">
-    <div class="col-12 col-md-12">
-
-        <form class='modal-content animate' action='lcomplet.php' method='post' enctype="multipart/form-data">
-            <div class='container'>
-                <label><b>Nom</b></label>
-                <input type='text' name='name' required>
-                <br>
-
-                <label><b>Tel</b></label>
-                <input type='text' name='tel' required>
-
-                <label><b>Matricule</b></label>
-                <input type='text' name='mat' required>
-                <br>
-
-                <br>
-
-                <body>
-                    <br>
-                    <br>
-                    <br>
-                    <center>
-                        <button type="sumbit">confirmer </button>
-            </div>
-    </div>
-    </center>
-    </body>
-    </body>
-
+    <h1> Lavage complet Demande</h1>
+	<div class="container">
+    		<div class="col-12 col-md-12">
+			<form class='modal-content animate' action='lcomplet.php' method='post' enctype="multipart/form-data">
+                		<label><b>Nom et prénom</b></label>
+                		<input type='text' name='name' required>
+                		<br>
+                		<label><b>Telephone</b></label>
+                		<input type='text' name='tel' required>
+                		<label><b>Matricule</b></label>
+                		<input type='text' name='mat' required>
+                		<br>
+                		<br>
+                    		<br>
+                    		<br>
+                    		<br>
+                        	<button type="sumbit">confirmer </button>
+            		</form>
+    		</div>
+	</div>
+</center>
+</body>
 </html>
