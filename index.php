@@ -2,54 +2,54 @@
 echo "
 <!DOCTYPE html>
 <html lang='en'>
-<head>
-<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css' integrity='sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ' crossorigin='anonymous'>
-    <meta charset='utf-8'>
-    <title>Lavage Reservation	</title>
+<	head>
+		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css' integrity='sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ' crossorigin='anonymous'>
+    	<meta charset='utf-8'>
+    	<title> Lavage Reservation </title>
     
-<style>
-#customers {
-    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
+	<style>
+	#customers {
+    		font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    		border-collapse: collapse;
+    		width: 100%;
+		}
 
-#customers td, #customers th {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
+	#customers td, #customers th {
+    		border: 1px solid #ddd;
+    		padding: 8px;
+		}
 
-#customers tr:nth-child(even){background-color: #f2f2f2;}
+	#customers tr:nth-child(even){background-color: #f2f2f2;}
 
-#customers tr:hover {background-color: #ddd;}
+	#customers tr:hover {background-color: #ddd;}
 
-#customers th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #4CAF50;
-    color: white;
-}
-h3 {
-	color : white;
-	background-color : pink;
-	text-align : center;
-	border : solid;
-	border-color : pink;
-	border-radius : 25px;
-}
-#libre{
-color : white;
-background-color : green ;
-}
-#oucuper{
-color : white;
-background-color : red;
-}
-#tc{
-color : white;
-}
-</style>
+	#customers th {
+    		padding-top: 12px;
+    		padding-bottom: 12px;
+    		text-align: left;
+    		background-color: #4CAF50;
+    		color: white;
+		}
+	h3 {
+		color : white;
+		background-color : pink;
+		text-align : center;
+		border : solid;
+		border-color : pink;
+		border-radius : 25px;
+	}
+	#libre{
+		color : white;
+		background-color : green ;
+	}
+	#oucuper{
+		color : white;
+		background-color : red;
+	}
+	#tc{
+		color : white;
+	}
+	</style>
 </head>
 
 <body>
